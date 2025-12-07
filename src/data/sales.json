@@ -1,0 +1,73 @@
+[
+	{
+		"id": 1042,
+		"transaction_uuid": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+		"client_name": "Tech Corp Ltda",
+		"client_email": "admin@techcorp.ficticio.com",
+		"product": "Licença Enterprise Vitalícia",
+		"amount": 15000.0,
+		"currency": "BRL",
+		"status": "COMPLETED",
+		"created_at": "2023-10-25T14:30:00Z",
+		"is_secret_sale": true,
+		"payment_details": {
+			"method": "credit_card",
+			"masked_number": "4532-xxxx-xxxx-9088",
+			"gateway_transaction_id": "tx_99887766"
+		},
+		"internal_notes": "Cliente VIP. Desconto de 40% aplicado manualmente pelo Diretor. NÃO DIVULGAR."
+	},
+	{
+		"id": 1043,
+		"transaction_uuid": "a12bc34d-56ef-78gh-90ij-1k2l3m4n5o6p",
+		"client_name": "João da Silva",
+		"client_email": "joao.silva@emailfalso.com",
+		"product": "Consultoria de Segurança - Pacote Básico",
+		"amount": 2500.5,
+		"currency": "BRL",
+		"status": "PENDING_APPROVAL",
+		"created_at": "2023-10-26T09:15:00Z",
+		"is_secret_sale": false,
+		"payment_details": {
+			"method": "pix",
+			"key_type": "cpf",
+			"masked_key": "***.123.456-**"
+		},
+		"internal_notes": null
+	},
+	{
+		"id": 1044,
+		"transaction_uuid": "99887766-5544-3322-1100-aabbccddeeff",
+		"client_name": "Project X Government",
+		"client_email": "contact@gov.secret.test",
+		"product": "Protótipo Alpha - Hardware Militar",
+		"amount": 1250000.0,
+		"currency": "USD",
+		"status": "CONFIDENTIAL",
+		"created_at": "2023-10-27T02:00:00Z",
+		"is_secret_sale": true,
+		"payment_details": {
+			"method": "wire_transfer",
+			"bank_code": "001",
+			"account_routing": "CLASSIFIED"
+		},
+		"internal_notes": "Projeto Top Secret. Acesso restrito ao nível 5. Aprovação pendente do conselho."
+	},
+	{
+		"id": 1045,
+		"transaction_uuid": "11223344-5566-7788-9900-aabbccddeeff",
+		"client_name": "Debug User",
+		"client_email": "dev@localhost",
+		"product": "Teste de Integração API",
+		"amount": 0.01,
+		"currency": "BRL",
+		"status": "DEBUG",
+		"created_at": "2023-10-27T10:00:00Z",
+		"is_secret_sale": false,
+		"payment_details": {
+			"method": "test_token",
+			"token": "tok_visa_debug_123"
+		},
+		"internal_notes": "Transação gerada automaticamente pelo script de CI/CD. Pode ser deletada."
+	}
+]

@@ -1,0 +1,4 @@
+[
+  { "id": 1, "user": "admin", "password": "elephant", "cpf": "111.222.333-44" },
+  { "id": 2, "user": "alice", "password": "chelsea", "cpf": "123.456.789-10" }
+]
